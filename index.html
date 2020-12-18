@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <h1>Test Your Speed</h1>
+    </div>
+
+    <div class="word-display">
+        Hello
+    </div>
+
+    <div class="word-input-box">
+        <input type="text" class="word-input" />
+    </div>
+    <div class="game-info">
+        <div>
+            <i class="fas fa-stopwatch fa-2x"></i>
+            <span class="time">0</span>초
+        </div>
+        <div>
+            <i class="fas fa-star fa-2x"></i><span class="score">0</span>점
+        </div>
+    </div>
+    <button class="button loading" onclick="run()">게임을 불러오는 중...</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
